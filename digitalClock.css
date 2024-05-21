@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 3.5mm;
+    color: #00ffcc;
+}
+
+.clock span {
+    background-color: #023955;
+    padding: 20px;
+    border-radius: 20px;
+}
